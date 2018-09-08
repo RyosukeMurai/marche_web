@@ -18,25 +18,39 @@ $this->title = 'My Yii Application';
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>About us</h2>
+                <h2>サプライヤー一覧</h2>
 
-                <p>We are supplier for restaurant in the world.</p>
+                <p>サプライヤーの登録・編集・削除が出来ます</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <p><a class="btn btn-default" href="/suppliers">サプライヤー一覧 &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Why marche</h2>
+                <h2>プロダクト一覧</h2>
 
-                <p>marche is color.</p>
+                <p>プロダクトの登録・編集・削除が出来ます</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                <p><a class="btn btn-default" href="/products">プロダクト一覧 &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>What should we do?</h2>
+                <h2>店舗一覧</h2>
 
-                <p>Optimize supply chain.</p>
+                <p>店舗の登録・編集・削除が出来ます</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-default" href="/clients">店舗一覧 &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>オーダー一覧</h2>
+
+                <p>オーダーの登録・編集・削除が出来ます</p>
+
+                <p><a class="btn btn-default" href="/orders">オーダー一覧 &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
             </div>
         </div>
 
