@@ -241,6 +241,9 @@ docker-compose run --rm php composer install
 #db migration
 docker-compose run --rm php yii migrate
 
+#launch applications
+docker-compose up
+
 #access page
 open. http://localhost:8000 
 ```
