@@ -231,3 +231,16 @@ vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+
+### Install development environment
+
+```
+#install library
+docker-compose run --rm php composer install
+
+#db migration
+docker-compose run --rm php yii migrate
+
+#access page
+open. http://localhost:8000 
+```
